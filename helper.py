@@ -101,5 +101,5 @@ def generate_draft(to,body,subject):
     draft = service.users().drafts().create(userId='me', body=create_draft_request_body).execute()
     print(f"Draft created with ID: {draft['id']}")
 
-# if __name__ == '__main__':
-    # generate_draft("anandhappriya@gmail.com","I LOVE YOU","PROPOSAL")
+
+
